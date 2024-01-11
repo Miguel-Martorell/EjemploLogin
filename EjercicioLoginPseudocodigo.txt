@@ -1,0 +1,22 @@
+main { 
+	boolean confirmar = false;
+	for(int intentos = 3; intentos > 0; intentos--){
+		print ("Te quedan" + intentos);
+		print("Introduce tu usuario: ");
+		String usuario= input;
+		print("Introduce la contraseña: ");
+		String contraseña = input;
+		if(usuario.equals("Usuari1") && contraseña.equals("asdfg")){
+			confirmar = true;
+			break; 
+		} else { 
+			confirmar = false;
+		}
+	if (confirmar == true){
+		print("Acesso concedido");
+	} else {
+		print("Chao, pescao");
+	}
+      }
+}
+		
